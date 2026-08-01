@@ -1,0 +1,33 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# 固件构建产物
+*.bin
+*.elf
+*.hex
+build/
+.pio/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 环境与密钥
+.env
+.env.*
+*.pem
+*.key
+
+# 数据库
+*.db
+*.db-journal
+*.sqlite
+
+# 日志
+*.log
+logs/
